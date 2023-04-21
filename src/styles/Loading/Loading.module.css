@@ -1,0 +1,25 @@
+.boardContainer h2 {
+  text-align: center;
+}
+.boardNav ul {
+  display: flex;
+  align-items: center;
+}
+.boardNav ul li {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.boardNav ul li:nth-child(1) {
+  background-color: dodgerblue;
+  border-radius: 10px 0 0 0;
+  margin-left: 5px;
+}
+.boardNav ul li:nth-child(2) {
+  background-color: rosybrown;
+}
+.item_section {
+  height: 500px;
+  background-color: #fff;
+}
