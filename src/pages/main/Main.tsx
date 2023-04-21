@@ -4,7 +4,8 @@ const Main = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <button onClick={() => navigate("/loadingBoard")}>로딩게시판</button>
+      <button onClick={() => navigate("/loadingBoard")}>loading animation</button>
+      <button onClick={() => navigate("/borderBoard")}>border animation</button>
     </div>
   );
 };

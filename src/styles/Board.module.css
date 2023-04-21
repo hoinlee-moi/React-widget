@@ -11,9 +11,11 @@
   font-weight: bold;
   cursor: pointer;
 }
+.boardNav ul li:first-child {
+    border-radius: 10px 0 0 0;
+}
 .boardNav ul li:nth-child(1) {
   background-color: dodgerblue;
-  border-radius: 10px 0 0 0;
   margin-left: 5px;
 }
 .boardNav ul li:nth-child(2) {
@@ -22,8 +24,10 @@
 .boardNav ul li:nth-child(3) {
   background-color: gray;
 }
+.boardNav ul li:last-child {
+    border-radius: 0px 10px 0 0;
+}
 .item_section {
   height: 500px;
-  max-height: 1000px;
-  background-color: #fff;
+  background-color: #363636;
 }
