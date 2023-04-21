@@ -19,7 +19,11 @@
 .boardNav ul li:nth-child(2) {
   background-color: rosybrown;
 }
+.boardNav ul li:nth-child(3) {
+  background-color: gray;
+}
 .item_section {
   height: 500px;
+  max-height: 1000px;
   background-color: #fff;
 }

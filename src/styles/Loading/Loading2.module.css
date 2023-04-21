@@ -6,7 +6,6 @@
 }
 .loading {
   position: relative;
-  border: 1px solid red;
   width: 80px;
   height: 80px;
 }
