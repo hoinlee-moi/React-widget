@@ -14,7 +14,7 @@ const Router = () => {
       path: "/loadingBoard",
       element: <LoadingBoard />,
       children: [
-        { path: "1", element: <Loading1 /> },
+        { path: "", element: <Loading1 /> },
         { path: "2", element: <Loading2 /> },
         { path: "3", element: <Loading3 /> },
       ],
@@ -24,7 +24,7 @@ const Router = () => {
       element: <BorderBoard />,
       children: [
         {
-          path: "1",
+          path: "",
           element: <Border1 />,
         },
       ],
