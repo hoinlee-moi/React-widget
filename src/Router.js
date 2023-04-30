@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import BorderBoard from "./pages/borad/BorderBoard";
 import LoadingBoard from "./pages/borad/LoadingBoard";
 import Border1 from "./pages/borderAni/Border1";
+import Dropdown1 from "./pages/dropdown/Dropdown1";
 import Loading1 from "./pages/loading/Loading1";
 import Loading2 from "./pages/loading/Loading2";
 import Loading3 from "./pages/loading/Loading3";
@@ -29,6 +30,10 @@ const Router = () => {
         },
       ],
     },
+    {
+      path:"/dropdown1",
+      element:<Dropdown1 />
+    }
   ]);
   return <RouterProvider router={ROUTER} />;
 };

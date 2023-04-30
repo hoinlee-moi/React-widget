@@ -1,0 +1,35 @@
+.dropdown{
+    display: inline-block;
+    /* width : 200px 일 경우 자식요소 width에 inherit을 써서 자동적으로 상속되게 만들자 */
+}
+.dropdown:hover .dropdown_submenu {
+    /* 부모요소에 hover가 될 경우 자식요소가 영향 */
+    display: block;
+}
+.dropdown_btn{
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: yellowgreen;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.dropdown_submenu{
+    display: none;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.17);
+}
+
+
+.dropdown_submenu a {
+    display: block;
+    color:#222;
+    padding: 7px;
+    text-align: center;
+}
+
+.dropdown_submenu a:hover {
+    background-color: #eee;
+}
