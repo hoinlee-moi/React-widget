@@ -6,6 +6,7 @@ const Main = () => {
     <div>
       <button onClick={() => navigate("/loadingBoard")}>loading animation</button>
       <button onClick={() => navigate("/borderBoard")}>border animation</button>
+      <button onClick={() => navigate("/hoverBoard")}>hover animation</button>
     </div>
   );
 };
