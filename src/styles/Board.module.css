@@ -24,10 +24,14 @@
 .boardNav ul li:nth-child(3) {
   background-color: gray;
 }
+.boardNav ul li:nth-child(4) {
+  background-color: #94e04d;
+}
 .boardNav ul li:last-child {
     border-radius: 0px 10px 0 0;
 }
 .item_section {
+  position: relative;
   height: 500px;
   background-color: #fff;
 }
