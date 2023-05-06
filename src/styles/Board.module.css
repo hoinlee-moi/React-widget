@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 .boardNav ul li:first-child {
-    border-radius: 10px 0 0 0;
+  border-radius: 10px 0 0 0;
 }
 .boardNav ul li:nth-child(1) {
   background-color: dodgerblue;
@@ -24,10 +24,21 @@
 .boardNav ul li:nth-child(3) {
   background-color: gray;
 }
+.boardNav ul li:nth-child(4) {
+  background-color: #94e04d;
+}
+.boardNav ul li:nth-child(5) {
+  background-color: #000;
+  color: #fff;
+}
+.boardNav ul li:nth-child(6) {
+  background-color: #fff;
+}
 .boardNav ul li:last-child {
-    border-radius: 0px 10px 0 0;
+  border-radius: 0px 10px 0 0;
 }
 .item_section {
-  height: 500px;
+  position: relative;
+  min-height: 500px;
   background-color: #fff;
 }

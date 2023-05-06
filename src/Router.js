@@ -4,8 +4,11 @@ import HoverBoard from "./pages/borad/HoverBoard";
 import LoadingBoard from "./pages/borad/LoadingBoard";
 import Border1 from "./pages/borderAni/Border1";
 import Dropdown1 from "./pages/hover/Dropdown1";
+import Hover3DAni from "./pages/hover/Hover3DAni";
 import HoverDetail from "./pages/hover/HoverDetail";
 import HoverToolTip from "./pages/hover/HoverToolTip";
+import OverNavi from "./pages/hover/OverNavi";
+import TopDownNavi from "./pages/hover/TopDownNavi";
 import Loading1 from "./pages/loading/Loading1";
 import Loading2 from "./pages/loading/Loading2";
 import Loading3 from "./pages/loading/Loading3";
@@ -46,6 +49,9 @@ const Router = () => {
           element: <HoverDetail />,
         },
         { path: "3", element: <HoverToolTip /> },
+        { path: "4", element: <OverNavi /> },
+        { path: "5", element: <TopDownNavi /> },
+        { path: "6", element: <Hover3DAni /> },
       ],
     },
   ]);
