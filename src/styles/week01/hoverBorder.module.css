@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.gnbBox01 {
+  margin-bottom: 40px;
+}
+.gnbBox01 a:before {
+  content: "01";
+  background-color: royalblue;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.gnbBox01 a::after {
+  content: "update";
+  font-size: 12px;
+  background-color: crimson;
+  color: #fff;
+  margin-left: 5px;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+/*  */
+
+.gnbBox02 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.1);
+}
+
+.gnbBox02 li {
+  /* float: left;
+    width: 120px;
+    text-align: center;
+    box-sizing: border-box; */
+  flex: 1;
+  text-align: center;
+}
+.gnbBox02 li a {
+  font-size: 14px;
+  position: relative;
+}
+.gnbBox02 li a:before {
+  content: "";
+  position: absolute;
+  background-color: dodgerblue;
+  height: 2px;
+  width: 0;
+  bottom: -5px;
+  transition: 0.5s;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+.gnbBox02 li a:hover:before {
+  width: 100%;
+}
