@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(09deg, #dce35b, #45b649);
+}
+
+.navi {
+  max-width: 80%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.navi a {
+  width: 80px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.navi a::after,
+.navi a::before {
+  content: attr(data-link);
+  position: absolute;
+  width: 100%;
+  transition: 0.3s;
+}
+.navi a::before {
+  top: 0;
+  left: 0;
+}
+.navi a::after {
+  top: 100%;
+  left: 0;
+  color: #45b649;
+}
+.navi a:hover::before {
+  top: -100%;
+}
+.navi a:hover::after {
+  top: 0;
+}

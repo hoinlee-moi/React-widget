@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.item {
+  width: 300px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.item input {
+  border: 1px solid lightgray;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  transition: 0.3s;
+  outline: none;
+}
+
+.item i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: gray;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.3s;
+}
+.item input:focus {
+    border: 1px solid dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
+.item input:focus + i{
+    color: dodgerblue;
+}
+.item input:focus::placeholder{
+    visibility: hidden;
+}
