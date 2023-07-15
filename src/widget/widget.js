@@ -8,8 +8,10 @@ import Loading1 from "../components/widget_basic/Loading01.jsx";
 import Loading2 from "../components/widget_basic/Loading02.jsx";
 import Loading3 from "../components/widget_basic/Loading03.jsx";
 import OverNavi from "../components/widget_basic/OverNavi.jsx";
+import SnsIconNavi from "../components/widget_basic/SnsIconNaiv.jsx";
 import TopDownNavi from "../components/widget_basic/TopDownNavi.jsx";
 export const widget = [
+  <SnsIconNavi />,
   <Border />,
   <Dropdown1 />,
   <Hover3DAni />,
