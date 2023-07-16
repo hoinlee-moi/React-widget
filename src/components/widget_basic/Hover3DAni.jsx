@@ -4,10 +4,10 @@ const Hover3DAni = () => {
   return (
     <div className={styles.container}>
       <div className={styles.app_ui}>
-        <img src={`${process.env.PUBLIC_URL}/assets/app-ui-01.jpg`} />
-        <img src={`${process.env.PUBLIC_URL}/assets/app-ui-02.jpg`} />
-        <img src={`${process.env.PUBLIC_URL}/assets/app-ui-03.jpg`} />
-        <img src={`${process.env.PUBLIC_URL}/assets/app-ui-04.jpg`} />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/week01/app-ui-01.jpg`} />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/week01/app-ui-02.jpg`} />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/week01/app-ui-03.jpg`} />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/week01/app-ui-04.jpg`} />
       </div>
     </div>
   );

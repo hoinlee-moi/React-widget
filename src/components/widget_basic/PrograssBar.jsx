@@ -1,19 +1,10 @@
 import { useState } from "react";
 import styles from "../../styles/week01/prograssBar.module.css";
 const PrograssBar = () => {
-  const [reset, setReset] = useState(false);
 
-  const clickHandle = () => {
-    setReset(!reset)
-    console.log('클릭됨')
-  }
   return (
     <div className={styles.container}>
       <div className={styles.skill_progress}>
-        <span
-          className={`fa fa-repeat ${styles.reset}`}
-          onClick={clickHandle}
-        />
         <h1>SOFTWARE SKILLS</h1>
         <div className={styles.item}>
           <p>
@@ -23,7 +14,7 @@ const PrograssBar = () => {
           <div className={styles.progress}>
             <div
               className={styles.progress_level}
-              style={{ width: `"90%"` }}
+              style={{ width: "90%" }}
             ></div>
           </div>
         </div>

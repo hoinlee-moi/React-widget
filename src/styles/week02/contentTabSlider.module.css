@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.tab_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+input[name="tabMenu"] {
+  display: none;
+}
+.tabs {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+  width: 300%;
+  transition: 0.5s;
+}
+.items div {
+  height: 100%;
+  width: 33.33333%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.items div:nth-child(1) {
+  background: url(/public/assets/images/week02/photo-01.jpg) no-repeat center
+    center;
+  background-size: cover;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.items div:nth-child(2) {
+  background: url(/public/assets/images/week02/photo-02.jpg) no-repeat center
+    center;
+  background-size: cover;
+}
+.items div:nth-child(3) {
+  background: url(/public/assets/images/week02/photo-03.jpg) no-repeat center
+    center;
+  background-size: cover;
+}
+
+.items div:nth-child(1)::before,
+.items div:nth-child(2)::before,
+.items div:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.items div:nth-child(1)::before {
+  background: linear-gradient(135deg, gold, transparent);
+}
+.items div:nth-child(2)::before {
+  background: linear-gradient(135deg, crimson, transparent);
+}
+.items div:nth-child(3)::before {
+  background: linear-gradient(135deg, royalblue, transparent);
+}
+
+.items div h1 {
+  position: relative;
+  font-size: 80px;
+  font-weight: normal;
+  text-align: center;
+  transform: translateY(-200px);
+  opacity: 0;
+  color: #fff;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #00000067;
+  text-align: center;
+}
+.btn label {
+  display: inline-block;
+  margin: 0 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[id="tabMenu01"]:checked ~ .tabs .items {
+  left: 0;
+}
+input[id="tabMenu02"]:checked ~ .tabs .items {
+  left: -100%;
+}
+input[id="tabMenu03"]:checked ~ .tabs .items {
+  left: -200%;
+}
+
+input[id="tabMenu01"]:checked ~ .btn label[for="tabMenu01"],
+input[id="tabMenu02"]:checked ~ .btn label[for="tabMenu02"],
+input[id="tabMenu03"]:checked ~ .btn label[for="tabMenu03"] {
+  color: crimson;
+}
+
+input[id="tabMenu01"]:checked ~ .tabs .items div:nth-child(1) h1,
+input[id="tabMenu02"]:checked ~ .tabs .items div:nth-child(2) h1,
+input[id="tabMenu03"]:checked ~ .tabs .items div:nth-child(3) h1 {
+  transform: translateY(200px);
+  opacity: 1;
+}

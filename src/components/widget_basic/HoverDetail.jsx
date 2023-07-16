@@ -5,7 +5,7 @@ const HoverDetail = () => {
   return (
     <div className={styles.items}>
       <div className={styles.item}>
-        <img src={`${process.env.PUBLIC_URL}/assets/product-01.jpg`} alt="" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/week01/product-01.jpg`} alt="" />
         <div className={styles.caption}>
           <h2>Rirakuma doll 25cm</h2>
           <p>
@@ -20,7 +20,7 @@ const HoverDetail = () => {
       </div>
 
       <div className={styles.item}>
-        <img src={`${process.env.PUBLIC_URL}/assets/product-02.jpg`} alt="" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/week01/product-02.jpg`} alt="" />
         <div className={styles.caption}>
           <h2>Rirakuma doll 25cm</h2>
           <p>
@@ -35,7 +35,7 @@ const HoverDetail = () => {
       </div>
 
       <div className={styles.item}>
-        <img src={`${process.env.PUBLIC_URL}/assets/product-03.jpg`} alt="" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/week01/product-03.jpg`} alt="" />
         <div className={styles.caption}>
           <h2>Rirakuma doll 25cm</h2>
           <p>

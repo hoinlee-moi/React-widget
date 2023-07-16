@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.tab_inner {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  max-width: 300px;
+  max-height: 350px;
+}
+input[name="slideTabmenu"] {
+  display: none;
+}
+.slide {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+}
+.slide_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: 0.5s;
+}
+.slide_inner img {
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+}
+.btn label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 0 5px;
+  background-color: #fff;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+input[id="slideTab1"]:checked ~ .slide .slide_inner {
+  left: 0;
+}
+input[id="slideTab2"]:checked ~ .slide .slide_inner {
+  left: -100%;
+}
+input[id="slideTab3"]:checked ~ .slide .slide_inner {
+  left: -200%;
+}
+input[id="slideTab1"]:checked ~ .btn label[for="slideTab1"],
+input[id="slideTab2"]:checked ~ .btn label[for="slideTab2"],
+input[id="slideTab3"]:checked ~ .btn label[for="slideTab3"] {
+  background-color: crimson;
+}

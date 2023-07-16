@@ -7,9 +7,9 @@ import PublisingItem from "./PublisingItem";
 const ItemList = () => {
   return (
     <div className={styles.listContainer}>
-      {widget.map((component) => {
+      {widget.map((component, idx) => {
         return (
-          <PublisingItem>
+          <PublisingItem key={Math.random().toString() + idx.toString()}>
             {component}
           </PublisingItem>
         );

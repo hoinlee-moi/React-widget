@@ -1,5 +1,10 @@
+import ContentTabSlider from "../components/widget_advence/ContentTabSlider.jsx";
+import FlexArcodian from "../components/widget_advence/FlexArcodian.jsx";
+import ShowHide from "../components/widget_advence/ShowHide.jsx";
+import SlideBanner from "../components/widget_advence/SlideBanner.jsx";
 import Border from "../components/widget_basic/Border.jsx";
 import Dropdown1 from "../components/widget_basic/DropDown01.jsx";
+import HamburgerBtn from "../components/widget_basic/HamburgerBtn.jsx";
 import Hover3DAni from "../components/widget_basic/Hover3DAni.jsx";
 import HoverBorder from "../components/widget_basic/HoverBorder.jsx";
 import HoverDetail from "../components/widget_basic/HoverDetail.jsx";
@@ -14,17 +19,22 @@ import SnsIconNavi from "../components/widget_basic/SnsIconNaiv.jsx";
 import TopDownNavi from "../components/widget_basic/TopDownNavi.jsx";
 import UpdownMenuNavi from "../components/widget_basic/UpdownMenuNavi.jsx";
 export const widget = [
+  <SlideBanner />,
+  <FlexArcodian />,
   <PrograssBar />,
   <UpdownMenuNavi />,
+  <ContentTabSlider />,
   <SnsIconNavi />,
   <Border />,
   <InputField />,
+  <HamburgerBtn />,
   <Dropdown1 />,
   <Hover3DAni />,
   <HoverDetail />,
   <HoverToolTip />,
   <OverNavi />,
   <TopDownNavi />,
+  <ShowHide />,
   <Loading1 />,
   <Loading2 />,
   <Loading3 />,
