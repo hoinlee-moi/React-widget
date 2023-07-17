@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.custom,
+.grade,
+.active_checkbox {
+  text-align: center;
+}
+.custom input[type="checkbox"] {
+  display: none;
+}
+.custom label em {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  background: url("/public/assets/images/week01/checkbox-02.png") no-repeat;
+  background-position: left center;
+}
+
+.custom input[type="checkbox"]:checked + label em {
+  background-position: right center;
+}
+
+.grade input[type="radio"] {
+  display: none;
+}
+.grade label {
+  cursor: pointer;
+}
+.grade label em {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin: 0 5px;
+  background: url(/public/assets/images/week01/radio-01.png) no-repeat;
+  background-position: left center;
+}
+.grade input[type="radio"]:checked + label em {
+  background-position: right center;
+}
+.grade input[type="radio"]:checked + label {
+  color: crimson;
+}
+
+.active_checkbox {
+
+}
+
+.active_checkbox form input[type=checkbox] {
+    display: none;
+}
+.active_checkbox form label:before {
+    content: '\f00c';
+    font-family: fontawesome;
+    display: inline-block;
+    border: 1px solid #333;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    margin: 0 5px;
+    font-size: 13px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 16px;
+    color: transparent;
+    transition: 0.2s;
+}
+
+.active_checkbox form input[type=checkbox]:checked + label::before {
+    color: #fff;
+    background-color: crimson;
+    border-color: transparent;
+}
+
+.active_checkbox form input[type=checkbox] + label:active::before {
+    transform: scale(0);
+}

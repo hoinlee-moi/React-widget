@@ -14,40 +14,16 @@ const FlexArcodian = () => {
             </p>
             <div className={styles.sns}>
               <a href="#none">
-                <i class="fa fa-facebook-square"></i>
+                <i className="fa fa-facebook-square"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-instagram"></i>
+                <i className="fa fa-instagram"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-linkedin-square"></i>
+                <i className="fa fa-linkedin-square"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-google-plus-square"></i>
-              </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div className={styles.content}>
-            <h2>Uploads made easy</h2>
-            <p>
-              Use Spotify for Artists to upload your releases. With previews and
-              simple edits, you can control exactly how your music appears to
-              divsteners.
-            </p>
-            <div className={styles.sns}>
-              <a href="#none">
-                <i class="fa fa-facebook-square"></i>
-              </a>
-              <a href="#none">
-                <i class="fa fa-instagram"></i>
-              </a>
-              <a href="#none">
-                <i class="fa fa-linkedin-square"></i>
-              </a>
-              <a href="#none">
-                <i class="fa fa-google-plus-square"></i>
+                <i className="fa fa-google-plus-square"></i>
               </a>
             </div>
           </div>
@@ -62,40 +38,16 @@ const FlexArcodian = () => {
             </p>
             <div className={styles.sns}>
               <a href="#none">
-                <i class="fa fa-facebook-square"></i>
+                <i className="fa fa-facebook-square"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-instagram"></i>
+                <i className="fa fa-instagram"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-linkedin-square"></i>
+                <i className="fa fa-linkedin-square"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-google-plus-square"></i>
-              </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div className={styles.content}>
-            <h2>Uploads made easy</h2>
-            <p>
-              Use Spotify for Artists to upload your releases. With previews and
-              simple edits, you can control exactly how your music appears to
-              divsteners.
-            </p>
-            <div className={styles.sns}>
-              <a href="#none">
-                <i class="fa fa-facebook-square"></i>
-              </a>
-              <a href="#none">
-                <i class="fa fa-instagram"></i>
-              </a>
-              <a href="#none">
-                <i class="fa fa-linkedin-square"></i>
-              </a>
-              <a href="#none">
-                <i class="fa fa-google-plus-square"></i>
+                <i className="fa fa-google-plus-square"></i>
               </a>
             </div>
           </div>
@@ -110,16 +62,64 @@ const FlexArcodian = () => {
             </p>
             <div className={styles.sns}>
               <a href="#none">
-                <i class="fa fa-facebook-square"></i>
+                <i className="fa fa-facebook-square"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-instagram"></i>
+                <i className="fa fa-instagram"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-linkedin-square"></i>
+                <i className="fa fa-linkedin-square"></i>
               </a>
               <a href="#none">
-                <i class="fa fa-google-plus-square"></i>
+                <i className="fa fa-google-plus-square"></i>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className={styles.content}>
+            <h2>Uploads made easy</h2>
+            <p>
+              Use Spotify for Artists to upload your releases. With previews and
+              simple edits, you can control exactly how your music appears to
+              divsteners.
+            </p>
+            <div className={styles.sns}>
+              <a href="#none">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href="#none">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="#none">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a href="#none">
+                <i className="fa fa-google-plus-square"></i>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className={styles.content}>
+            <h2>Uploads made easy</h2>
+            <p>
+              Use Spotify for Artists to upload your releases. With previews and
+              simple edits, you can control exactly how your music appears to
+              divsteners.
+            </p>
+            <div className={styles.sns}>
+              <a href="#none">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href="#none">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="#none">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a href="#none">
+                <i className="fa fa-google-plus-square"></i>
               </a>
             </div>
           </div>
